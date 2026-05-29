@@ -9,10 +9,7 @@ network security best practices.
 ---
 
 ## Architecture Diagram
-<img width="1536" height="1024" alt="Three tier web application architecture diagram" src="https://github.com/user-attachments/assets/9b982c34-2b20-4837-9c9b-014a2b7c23dd" />
-
-
-
+![Architecture](architecture/architecture.png)
 
 ---
 
