@@ -33,8 +33,7 @@ network security best practices.
 
 ## Security Architecture
 
-Three security groups implement defense in depth:
-<img width="1149" height="1369" alt="Security architecture" src="https://github.com/user-attachments/assets/a77ab7e7-6307-4558-b0b3-8b716e10c220" />
+![Security architecture](screenshots/security-architecture.png)
 
 
 
