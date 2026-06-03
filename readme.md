@@ -21,13 +21,12 @@ Took me a few days to get everything working properly — ran into some issues a
 
 ## Architecture
 
-![Architecture](architecture/architecture.png)
+![Architecture](Three tier web application architecture diagram.png)
 
 ---
 
 ## Security groups setup
-
-![Security Architecture](screenshots/security-architecture.png)
+![Security Architecture](Security architecture.png)
 
 I created 3 separate security groups and chained them:
 
