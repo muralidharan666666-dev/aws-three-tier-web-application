@@ -201,8 +201,6 @@ RDS and NAT Gateway charge even when idle so make sure to delete everything afte
 ## About me
 
 **Muralidharan M.N**
-AWS re/Start Graduate | AWS Certified Cloud Practitioner |
-Cloud Engineer in the Making
 
 I completed the AWS re/Start program — AWS's official career
 launch program for cloud — and earned the AWS Cloud Practitioner
