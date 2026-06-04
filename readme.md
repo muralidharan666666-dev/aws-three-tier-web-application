@@ -190,7 +190,7 @@ RDS and NAT Gateway charge even when idle so make sure to delete everything afte
 ## What I learned
 
 Building this project made me understand how real applications are isolated from the internet at the network level.
-Every major application you use — banking, e-commerce, healthcare — has its database sitting in a completely private network with no direct path from the internet. You can never reach it directly. The only way in is through the application layer, and the only way into the application layer is through the load balancer. Each layer only talks to the one directly above it. Nothing else gets through.
+Every major application we use — banking, e-commerce, healthcare — has its database sitting in a completely private network with no direct path from the internet. You can never reach it directly. The only way in is through the application layer, and the only way into the application layer is through the load balancer. Each layer only talks to the one directly above it. Nothing else gets through.
 That is exactly what the security group chain does here. SG-ALB only accepts traffic from the internet. SG-App only accepts traffic from SG-ALB. SG-DB only accepts traffic from SG-App. If you try to reach the database directly from the internet there is no path. It does not exist at the network level.
 I only fully understood this when the wrong security group on the ALB silently broke the entire chain. Everything looked fine — Apache was running, route tables were correct, EC2 was healthy. But the chain was broken at the first link so nothing worked. That one mistake taught me more about how layered network security actually works than anything else.
 ---
